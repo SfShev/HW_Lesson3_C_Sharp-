@@ -8,16 +8,16 @@
     Console.WriteLine($"Расстояние = {distance} ");
 }
 
+Console.WriteLine("Если хотите узнать расстояние между двумя точками,задайте координаты этих точек:");
 
-Console.WriteLine("Задайте координаты");
-Console.WriteLine("Координаты 1 точки");
+Console.WriteLine("Координаты 1 точки:");
 Console.Write("Х = ");
 double x = Convert.ToDouble(Console.ReadLine());
 Console.Write("Y = ");
 double y = Convert.ToDouble(Console.ReadLine());
 Console.Write("Z = ");
 double z = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Координаты 2 точки");
+Console.WriteLine("Координаты 2 точки:");
 Console.Write("Х = ");
 double x1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Y = ");
