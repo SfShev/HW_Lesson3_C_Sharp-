@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите число");
+﻿Console.WriteLine("Если хотите узнать кубы чисел от 1 до N  или от N до -1");
+Console.WriteLine("Введите число N:");
 
 int number1 = Convert.ToInt32(Console.ReadLine());
 int i = 1;
